@@ -33,7 +33,7 @@ ENV_ROLE = get_env_variable('ENV_ROLE')
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'c37gv_n-_nq(-wd0&^&82iw!@gpx9yz9*4fk+#h5ft8+b@)!h4'
+SECRET_KEY = get_env_variable('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #SECURITY WARNING: don't run with debug turned on in production!
@@ -42,6 +42,7 @@ TEMPLATE_DEBUG = DEBUG
 if ENV_ROLE == 'development':
     DEBUG = True
     TEMPLATE_DEBUG = DEBUG
+    VICTORIUS_DB_PASS = get_env_variable('VICTORIUS_DB_PASS')
 
 ALLOWED_HOSTS = []
 
@@ -96,7 +97,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'victoriusDB',
         'USER': 'postgres',
-        'PASSWORD': 'H0la_Mund0',
+        'PASSWORD': VICTORIUS_DB_PASS,
         'HOST': '/tmp',
         'POdir'
         'RT': '5432',
@@ -141,3 +142,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'staticfiles'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
