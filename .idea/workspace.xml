@@ -2,115 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e18b25fd-d337-44f8-8780-aa04a065f920" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/Carousel_Placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/Drop-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/Fotoperfil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/MediaObj_Placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/Thumbnail_Placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/aceptar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/agendada.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/aprobado.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/asistida.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/asistio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/bg-yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/big-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/borde-foto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/cake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/calendar-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/cancelada-clase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/cancelada.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/clase-eliminar-yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/clase-eliminar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/clase-espera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/clase-libre.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/clase-llena-over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/clase-over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/close-btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/con-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/con-saldo-azul.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/con-saldo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/dia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/eliminar-perfil.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/espera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/fondo-atletas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/fondo-centros.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/fondo-dash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/fondo-instructores.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/fondo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/fondo_ZonaFuncional.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/foto-instructor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/foto-instructor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/foto-perfil-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/grey-arrow-dos.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/grey-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icon001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icon002.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icon003.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icons/centros.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icons/dash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icons/instructores.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icons/notificaciones.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/icons/settings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/instructor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/isotipo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/isotipoBig.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/isotipoBig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/lista-espera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/loader-black.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/logoVictor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/lupa-blanca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/lupa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/map-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/moreOps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/negar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/no-plans.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/perfil_clase-001.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/perfil_clase-002.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/perfil_clase.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/perfil_clase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/phone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/place.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/prox-disciplina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/roberto.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/see-more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/seguidos-espera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/seguidos-unido.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/select-input-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/semana.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/sin-foto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/sin-saldo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/teacher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/time.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/unido.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/usuario-eliminar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/images/vacio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/css/estilos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/css/panel-tab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/css/timeline.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/panel-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/sameHeight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/static/js/timeline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vicMod/vicMod/settings.py" afterPath="$PROJECT_DIR$/vicMod/vicMod/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,7 +13,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vicMod/vicMod/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -130,11 +33,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/vicMod/vicModApp/settings.py" />
-        <option value="$PROJECT_DIR$/vicMod/vicMod/settings.py" />
         <option value="$PROJECT_DIR$/vicMod/vicMod/wsgi.py" />
         <option value="$PROJECT_DIR$/vicMod/vicMod/static/css/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/vicMod/vicMod/static/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/vicMod/vicMod/static/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/vicMod/vicMod/settings.py" />
       </list>
     </option>
   </component>
@@ -204,28 +107,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vicMod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victorius" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="victorius" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vicMod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vicMod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,8 +219,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="13" width="1210" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33597884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24426807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -380,16 +262,6 @@
         <state relative-caret-position="325">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding>
-            <element signature="e#310#319#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,6 +327,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
           <folding />
         </state>
       </provider>
