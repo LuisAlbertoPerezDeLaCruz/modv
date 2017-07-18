@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from mercadeo.views import login,centros,instructores,acerca_de
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', login, name='login'),
+    url(r'^centros$', centros, name='centros'),
+    url(r'^instructores$', instructores, name='instructores'),
+    url(r'^acerca_de$', acerca_de, name='acerca_de'),
+    #url(r'^(?P<pk>[\w\-]+)/dashboard$', dashboard, name='dashboard'),
 ]

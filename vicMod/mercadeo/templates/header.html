@@ -1,0 +1,725 @@
+
+{%if user.is_authenticated %}
+
+{% if perfil.u_marca %}
+<div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top raleway">
+      <div class="container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="./dashboard"><img src="../static/images/logoVictor.png" alt="" class="big-logo"/> <img src="../static/images/isotipo.png" alt="" class="small-logo"/></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="nav navbar-nav">
+            <li><a id="calendario" href="./dashboard">Calendario</a></li>
+             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
+              <ul class="dropdown-menu pop-menu">
+                  <li><a href="./atletas">Atletas</a></li>
+                  <li><a href="./atletas?entrenadores=s">Entrenadores</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administrativo<span class="caret"></span></a>
+              <ul class="dropdown-menu pop-menu">
+                  <li><a href="./edo-cuenta">Pagos</a></li>
+                  <li><a href="./planes">Planes</a></li>
+                  <li><a href="./consumos">Consumos</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a href="#" class="dropdown-toggle cliente" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{request.user.first_name}} {{request.user.last_name}} - @{{marca_actual.m_alias}}<span class="caret"></span></a>
+                <ul class="dropdown-menu pop-menu">
+                {% for marca in marcas %}
+                  <li><a href="/{{marca.d_marca.m_alias}}/dashboard">{{marca.d_marca}}</a></li>
+                {% endfor %}
+                  <li><a href="#">Configuración</a></li>
+                  <li><a href="/logout">Cerrar sesión</a></li>
+                </ul>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li style="width:100px;"></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+{% elif perfil.u_entrenador %}
+    <div class="container-fluid">
+      <header>
+        <nav class="navbar navbar-default navbar-fixed-top raleway">
+          <div class="container-fluid"> 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              <a class="navbar-brand" href="./dashboard"><img src="../static/images/logoVictor.png" alt="" class="big-logo"/> <img src="../static/images/isotipo.png" alt="" class="small-logo"/></a></div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="topFixedNavbar1">
+              <ul class="nav navbar-nav">
+                <li><a id="calendario" href="./dashboard">Calendario</a></li>
+                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usuarios<span class="caret"></span></a>
+                  <ul class="dropdown-menu pop-menu">
+                      <li><a href="./atletas">Atletas</a></li>
+                      <li><a href="./atletas?entrenadores=s">Entrenadores</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administrarivo<span class="caret"></span></a>
+                  <ul class="dropdown-menu pop-menu">
+                      <li><a href="./edo-cuenta">Pagos</a></li>
+                      <li><a href="./planes">Planes</a></li>
+                      <li><a href="./atletas">Atletas</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="dropdown agendar-absolute"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="dash">#</span><!--<span class="caret"></span>--></a>
+              <ul class="dropdown-menu pop-menu-blanco">
+              <div class="row">
+                <div class="col-xs-12"><span class="big-grey">CCS</span></div>
+                <div class="col-xs-12 padding-row">
+                 <form><input id="myInput" type="search" onkeyup="return myFiltro()" class="buscar-usuario"></form>
+                </div>
+              </div>
+              <span class="mid-grey">Calendarios que sigo</span>
+        <li><a href="/{{perfil.u_alias}}/dashboard">Mi Calendario</a></li>
+                {% for r in marcas_publicas %}
+                <li id="r{{forloop.counter}}" ><a id="n{{forloop.counter}}" href="./{{r.m_alias}}-calendario">{{r.m_nombre}}</a></li>
+                {% endfor %}
+                <div class="row">
+              </div>
+              </ul>
+            </div>
+              <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown"><a href="#" class="dropdown-toggle cliente" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{request.user.first_name}} {{request.user.last_name}} <span class="caret"></span></a>
+                    <ul class="dropdown-menu pop-menu">
+                      <li><a href="./perfil">Mi Perfil</a></li>
+                      <li><a href="#">Configuración</a></li>
+                      <li><a href="/logout">Cerrar sesión</a></li>
+                    </ul>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li style="width:100px;"></li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+{% else %}
+    <div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top raleway">
+      <div class="container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="/{{perfil.u_alias}}/dashboard"><img src="../static/images/logoVictor.png" alt="" class="big-logo"/> <img src="../static/images/isotipo.png" alt="" class="small-logo"/></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="nav navbar-nav">
+            <li><a id="calendario" href="/{{perfil.u_alias}}/dashboard">Calendario</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Administrarivo<span class="caret"></span></a>
+              <ul class="dropdown-menu pop-menu">
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{request.user.first_name}} {{request.user.last_name}}<span class="caret"></span></a>
+                <ul class="dropdown-menu pop-menu">
+                  <li><a href="/{{perfil.u_alias}}/perfil">Mi Perfil</a></li>
+                  <li><a href="#">Configuración</a></li>
+                  <li><a href="/logout">Cerrar sesión</a></li>
+                </ul>
+              </li>
+              <li role="separator" class="divider"></li>
+              <li style="width:170px;"></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+
+<div class="dropdown agendar-absolute"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="dash">#</span><!--<span class="caret"></span>--></a>
+              <ul class="dropdown-menu pop-menu-blanco">
+              <div class="row">
+                <div class="col-xs-12"><span class="big-grey">CCS</span></div>
+                <div class="col-xs-12 padding-row">
+                 <form><input id="myInput" type="search" onkeyup="return myFiltro()" class="buscar-usuario"></form>
+                </div>
+              </div>
+              <span class="mid-grey">Calendarios que sigo</span>
+        <li><a href="/{{perfil.u_alias}}/dashboard">Mi Calendario</a></li>
+                {% for r in marcas_publicas %}
+                <li id="r{{forloop.counter}}" ><a id="n{{forloop.counter}}" href="./{{r.m_alias}}-calendario">{{r.m_nombre}}</a></li>
+                {% endfor %}
+                <div class="row">
+              </div>
+              </ul>
+            </div>
+
+{% endif %}
+
+<!--POP UP MENU NOTIFICACIONES-->
+    <div class="dropdownClick notificaciones">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <img id="fotoPerfil" class="foto-perfil" style="height: 55px; width: 55px; margin: 0px !important; border: solid 2px #ffcd00" src="../static/{{request.user}}.png" onerror="this.src='../static/images/Fotoperfil.png'" /><span class="notiPerfil">{{notificaciones.5}}</span></img>
+        </a>
+        <div class="dropdown-menu pop-menu-blanco-big">
+            <div class="row">
+                <div class="col-xs-12">
+                    <a class="dropdownClickClose" href="javascript:void(0);"><img src="../static/images/close.png" class="blank-img"></a>
+                </div>
+                <div class="col-xs-12">
+                    <div role="tabpanel">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#home1" data-toggle="tab" role="tab" aria-controls="tab1">Notificaciones <strong>{{notificaciones.4}}</strong></a></li>
+                            <li role="presentation"><a href="#paneTwo1" data-toggle="tab" role="tab" aria-controls="tab2">Solicitudes de conexión <strong>{{notificaciones.5}}</strong></a></li>
+                        </ul>
+                        <div id="tabContent1" class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="home1">
+                                <div class="container-fluid no-padding">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="col-xs-12 confirmado">
+                                                    <h3>CONFIRMADOS</h3></div>
+                                                {%for n in notificaciones.0%}
+                                                <div class="row fila-notificaciones">
+                                                    <div class="col-xs-2"><img src="../static/{{n.n_notificador}}.png" onerror="this.src='../static/images/Fotoperfil.png'" width="44" height="42" alt="" /></div>
+                                                    <div class="col-xs-7">{{n.n_contenido}}
+                                                        <br>en la clase {{n.n_actividad}}
+                                                        <br><strong>{{n.n_notificador.first_name}} {{n.n_notificador.last_name}}</strong> <span style="color:rgba(255,205,0,1.00);"></span></div>
+                                                    <div class="col-xs-2"><span style="float:right;">{{n.n_fecha | date:'d/M/y'}}<br><strong>{{n.n_fecha |date:'H:m a'}}</strong></span></div>
+                                                </div>
+                                                {%endfor%}
+                                            </div>
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="col-xs-12 lista-de-espera">
+                                                    <h3>LISTA DE ESPERA</h3></div>
+                                                {%for n in notificaciones.1%}
+                                                <div class="row fila-notificaciones">
+                                                    <div class="col-xs-2"><img src="../static/{{n.n_notificador}}.png" onerror="this.src='../static/images/Fotoperfil.png'" width="44" height="42" alt="" class="foto-perfil"/></div>
+                                                    <div class="col-xs-7">{{n.n_contenido}}
+                                                    	<br>en la clase {{n.n_actividad}}
+                                                        <br><strong>{{n.n_notificador.first_name}} {{n.n_notificador.last_name}}</strong> <span style="color:rgba(255,205,0,1.00);"></span></div>
+                                                    <div class="col-xs-2"><span style="float:right;">{{n.n_fecha | date:'d/M/y'}}<br><strong>{{n.n_fecha |date:'H:m a'}}</strong></span></div>
+                                                </div>
+                                                {%endfor%}
+                                            </div>
+                                            <div class="col-md-4 col-xs-12">
+                                                <div class="col-xs-12 invitados">
+                                                    <h3>Acciones</h3></div>
+                                                {%for n in notificaciones.2%}
+                                                <div class="row fila-notificaciones">
+                                                    <div class="col-xs-2"><img src="../static/{{n.n_notificador.username}}.png" onerror="this.src='../static/images/Fotoperfil.png'" width="44" height="42" alt="" class="foto-perfil"/></div>
+                                                    <div class="col-xs-7">{{n.n_contenido}}
+                                                        <br><strong>{{n.n_notificador.first_name}} {{n.n_notificador.last_name}}</strong> <span style="color:rgba(255,205,0,1.00);"></span></div>
+                                                    <div class="col-xs-2"><span style="float:right;">{{n.n_fecha | date:'d/M/y'}}<br><strong>{{n.n_fecha |date:'H:m a'}}</strong></span></div>
+                                                </div>
+                                                {%endfor%}
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="paneTwo1">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <div class="col-md-4 col-xs-12">
+                                            {%for n in notificaciones.3%}
+                                                <div class="row fila-notificaciones">
+                                                    <div class="col-xs-2"><img src="../static/{{n.n_notificador.username}}.png" onerror="this.src='../static/images/Fotoperfil.png'" width="44" height="42" alt="" class="foto-perfil"/></div>
+                                                    <div class="col-xs-7"><strong>{{n.n_notificador.first_name}} {{n.n_notificador.last_name}}</strong>
+                                                        <br>Te ha solicitado seguir</div>
+                                                    <div class="col-xs-2 solicitudes">
+                                                        <a href="#"><img src="../static/images/aceptar.png"></a>
+                                                        <a href="#"><img src="../static/images/negar.png"></a>
+                                                    </div>
+                                                </div>
+                                            {%endfor%}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% else %}
+<div class="container-fluid">
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top raleway">
+      <div class="container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="/"><img src="../static/images/logoVictor.png" alt="" class="big-logo"/>
+<img src="../static/images/isotipo.png" alt="" class="small-logo"/></a></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+          <ul class="nav navbar-nav">
+            <li><a href="{% url 'centros' %}">Centros<span class="sr-only">(current)</span></a></li>
+            <li><a href="{% url 'instructores' %}">Instructores</a></li>
+            <li><a href="{% url 'acerca_de' %}">Acerca De</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+          <li ><a href="#" onclick="return login()">Login</a></li>
+          <li ><a href="#" onclick="return register()"><span class="yellow-text-min">Regístrate</span></a></li>
+            <li style="width:120px;"></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->         
+      </div>
+      <!-- /.container-fluid --> 
+    </nav>
+  </header>
+</div>
+
+<div class="dropdownClick agendar-abs"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="agendar" style="padding:10px;">AGENDAR</span><!--<span class="caret"></span>--></a>
+              <ul class="dropdown-menu pop-menu-blanco">
+              <div class="row">
+               <div class="col-xs-12">
+                    <a class="dropdownClickClose" href="javascript:void(0);"><img src="../static/images/close.png" class="blank-img"></a>
+                </div>
+                <div class="col-xs-12"><span class="big-grey">CCS</span></div>
+                <div class="col-xs-12 padding-row">
+                 <form><input id="myInput" type="search" onkeyup="return myFiltro()" class="buscar-usuario"></form>
+                </div>
+              </div>
+               {% for a in marcas_publicas %}
+                <li id="re{{forloop.counter}}" ><a id="n{{forloop.counter}}" href="/{{a.m_alias}}">{{a.m_nombre}}</a></li>
+               {% endfor %}
+              <div class="row">
+              </div>
+              </ul>
+            </div>
+<form method="post" action="" id="formRegister">
+
+	<div id="r1" class="container-fluid modulo-login"
+		style="z-index: 9999; max-height: 0px; overflow: hidden; padding-top: 0px; padding-bottom: 0px;">
+		<div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+		<div class="row" style="text-align: left;">
+			<div class="col-sm-12" style="height: 60px;">
+				<div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+				<h3>Registrate</h3>
+				<a href="#" class="miembro">¿ya eres miembro? / </a> 
+				 <span class="miembro badge " style="color: white;">1 de 3</span>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+
+				{% csrf_token %}
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-3">
+								<input type="hidden" name="form-type" value="registro" />
+								<div class="form-group">
+
+									<input id="username" name="username"
+										class="btn-block input-agregar form-control" type="email"
+										value="" placeholder="Correo Electrónico"
+										data-error="Correo Invalido" required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+							<div class="form-group">
+
+									<input id="inputPassword" name="password"
+										class="btn-block input-agregar form-control" type="password"
+										value="" placeholder="Contraseña"  data-error="Campo requerido"
+										required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="form-group">
+
+									<input id="passwordConfirm" name="passwordConfirm"
+										class="btn-block input-agregar form-control" type="password"
+										value="" placeholder="Confirmar contraseña"  data-match="#inputPassword" data-error="Confirme la contraseña"
+										required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<input onclick="return continuar()"  type="button"
+									value="Continuar" class="btn-block botones-agregar">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--  <div class="row" style="float: right;">
+					<div class="col-sm-12">
+						<h3>
+							Si eres proveedor <a href="#"><strong>haz clic aquí</strong></a>
+						</h3>
+					</div>
+				</div>-->
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="row" style="padding-bottom: 20px">
+			<div class="col-lg-2 col-xs-offset-5">
+				<span class="bullet bullet-select"></span><span class="bullet"></span><span
+					class="bullet"></span>
+			</div>
+		</div>
+	</div>
+
+	<div id="r2" class="container-fluid modulo-login"
+		style="z-index: 9999; max-height: 0px; overflow: hidden; padding-top: 0px; padding-bottom: 0px;">
+		<div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+		<div class="row" style="text-align: left;">
+			<div class="col-sm-12" style="height: 60px;">
+				<div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+				<h3>Registrate</h3>
+				<a href="#" class="miembro">¿ya eres miembro? / </a> <span
+					class="miembro badge " style="color: white;">2 de 3</span>
+			</div>
+			<div class="col-sm-1"></div>
+			<div class="col-sm-10">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="row">
+							<div class="col-sm-4">
+
+								<div class="form-group">
+
+									<input name="first_name"
+										class="btn-block input-agregar form-control" type="text"
+										value="" placeholder="Nombre" data-error="Campo requerido"
+										required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+
+							</div>
+
+
+							<div class="col-sm-4">
+								<div class="form-group">
+
+									<input name="last_name"
+										class="btn-block input-agregar form-control" type="text"
+										value="" placeholder="Apellido" data-error="Campo requerido"
+										required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<input onclick="return finalizar()" type="button"
+									value="Continuar" class="btn-block botones-agregar">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--  <div class="row" style="float:right;">
+          <div class="col-sm-12"><h3>Si eres proveedor <a href="#"><strong>haz clic aquí</strong></a></h3>
+          </div>
+        </div> -->
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+		<div class="row" style="padding-bottom: 20px">
+			<div class="col-lg-2 col-xs-offset-5">
+				<span class="bullet"></span><span class="bullet bullet-select"></span><span
+					class="bullet"></span>
+			</div>
+		</div>
+	</div>
+
+	<div id="r3" class="container-fluid modulo-login inicio" style="z-index:100; max-height: 0px;overflow: hidden;padding-top: 0px;padding-bottom: 0px;">
+<div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+ 	<div class="row" style="text-align: left;">
+			<div class="col-sm-12" style="height: 60px;">
+				<div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+				<h3>Registrate</h3>
+				<a href="#" class="miembro">¿ya eres miembro? / </a> <span
+					class="miembro badge " style="color: white;">3 de 3</span>
+			</div>
+    <div class="col-sm-12">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row">
+            <div class="col-sm-3">
+                        
+          <div class="form-group">
+	            <select name="dic1"  data-error="Campo requerido" class="form-control btn-block input-agregar">
+	            <option value="" style="color: #777">Selec. 1º disciplina</option>
+	             {% for c in disciplinas %}
+	               <option>{{c.d_nombre}}</option>
+	                    {% endfor%}
+	            </select>          
+     		 <div class="help-block with-errors" style="color: white;"></div>
+       		</div>
+              </div>
+              <div class="col-sm-3">
+                 <div class="form-group">
+	            <select name="dic2" data-error="Campo requerido" class="form-control btn-block input-agregar">
+	            <option value="" style="color: #777">Selec. 2º disciplina</option>
+	             {% for c in disciplinas %}
+	               <option>{{c.d_nombre}}</option>
+	                    {% endfor%}
+	            </select>          
+     		 <div class="help-block with-errors" style="color: white;"></div>
+       		</div>
+              </div>
+			<div class="col-sm-3">
+				<div class="form-group">
+
+					<input name="last_name"
+						class="btn-block input-agregar form-control" type="text"
+						value="" placeholder="Teléfono" data-error="Campo requerido"
+						required>
+					<div class="help-block with-errors" style="color: white;"></div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+                <input type="submit" class="btn-block botones-agregar submit" value="Registrarse">
+              </div>
+            </div>
+          </div>
+        </div>
+       <!--  <div class="row" style="float:right;">
+          <div class="col-sm-12"><h3>Si eres proveedor <a href="#"><strong>haz clic aquí</strong></a></h3>
+          </div>
+        </div> -->
+
+    </div>
+  </div>
+  <div class="row" style="padding-bottom:20px">
+    <div class="col-lg-2 col-xs-offset-5"><span class="bullet"></span><span class="bullet"></span><span class="bullet bullet-select"></span></div>
+  </div>
+</div>
+</form>
+<div id="login" style="z-index:9999;max-height: 0px;overflow: hidden;padding-top: 0px;padding-bottom: 0px;" class="container-fluid modulo-login">
+  <div class="row"> 
+   <div class="col-sm-12" style="height : 60px;">
+   <div style="cursor: pointer;" onclick="cerrar()" class="close-btn"></div>
+     <h3>Login</h3>
+      <a href="#" onclick="register()" class="miembro">registrate</a><a href="#" onclick="olvido()" class="miembro">¿olvidaste tu contraseña?</a>
+   </div>
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+			<form method="post" action="/" id="formLogin">
+				{% csrf_token %}
+				<div class="row" style="text-align: left;">
+					<div class="col-sm-12">
+
+						<div class="row">
+							<div class="col-sm-4">
+								<input type="hidden" name="form-type" value="/" />
+								<div class="form-group">
+
+									<input id="username" name="username"
+										class="btn-block input-agregar form-control" type="email"
+										value="" placeholder="Correo Electrónico"
+										data-error="Correo Invalido" required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="form-group">
+
+									<input id="password" name="password"
+										class="btn-block input-agregar form-control" type="password"
+										value="" placeholder="Contraseña" data-error="Campo requerido"
+										required>
+									<div class="help-block with-errors" style="color: white;"></div>
+								</div>
+							</div>
+							<div class="col-sm-4" style="padding-bottom: 20px">
+								<input type="submit" class="btn-block botones-agregar submit"
+									value="Login">
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+    <div class="col-sm-1" style="padding-bottom:20px"></div>
+  </div>
+</div>
+
+<div id="olvido" style="z-index:9999;max-height: 0px;overflow: hidden;transition: max-height 1.0s ease-out;padding-top: 0px;padding-bottom: 0px;" class="container-fluid modulo-login">
+<a href="#"><div onclick="login()" class="close-btn"></div></a>
+  <div class="row" style="padding-top:60px">
+    <div class="col-sm-6 col-sm-offset-3">
+      <h3>¿Olvidaste tu clave?</h3>
+      <form>
+          <input onclick="return clearField(this)" type="text" value="Ingresa tu correo" class="btn-block input-agregar">
+          <input type="button" value="Enviar" class="btn-block botones-agregar">
+      </form>
+    </div>
+  </div>
+  <div class="col-sm-1" style="padding-bottom:20px"></div>
+</div>
+
+<script type="text/javascript">
+      function register()      {
+         document.getElementById("r2").style.maxHeight = "0px";
+         document.getElementById("olvido").style.maxHeight = "0px";
+         document.getElementById("r3").style.maxHeight = "0px";
+         document.getElementById("login").style.maxHeight = "0px";
+         document.getElementById("r1").style.maxHeight = parseInt(document.getElementById("r1").scrollHeight)*2.5 + "px";
+      }
+      function cerrar()      {
+         document.getElementById("r1").style.maxHeight = "0px";
+         document.getElementById("r2").style.maxHeight = "0px";
+         document.getElementById("r3").style.maxHeight = "0px";
+         document.getElementById("olvido").style.maxHeight = "0px";
+         document.getElementById("login").style.maxHeight = "0px"
+      }
+      function continuar()      { 
+    	 var temp = false;
+    	    $('#formRegister').validator('validate');
+    	  $( "#r1" ).find('.with-errors').each(function( index ) {
+    		  
+    		  if($.trim($( this ).text()) != ''){
+    			  temp = true; 
+    		  }    		
+    	  });
+    	 if(temp){
+    		 
+    		 return temp;
+    	 }
+         document.getElementById("r1").style.maxHeight = "0px";
+         document.getElementById("r3").style.maxHeight = "0px";
+         document.getElementById("olvido").style.maxHeight = "0px";
+         document.getElementById("login").style.maxHeight = "0px";
+         document.getElementById("r2").style.maxHeight = parseInt(document.getElementById("r2").scrollHeight)*2.5 + "px";
+      }
+      function finalizar()      {
+    	  var temp = false;
+  	    $('#formRegister').validator('validate');
+  	 		 $( "#r2" ).find('.with-errors').each(function( index ) {
+  		  
+  		  if($.trim($( this ).text()) != ''){
+  			  temp = true; 
+  		  }    		
+  	 	 });
+  	 		 
+  		 if(temp){
+  		 
+  			 return temp;
+  		 }
+         document.getElementById("r1").style.maxHeight = "0px";
+         document.getElementById("r2").style.maxHeight = "0px";
+         document.getElementById("olvido").style.maxHeight = "0px";
+         document.getElementById("login").style.maxHeight = "0px";
+         document.getElementById("r3").style.maxHeight = parseInt(document.getElementById("r3").scrollHeight)*2.5 + "px";
+      }
+      function login()      {
+         document.getElementById("r1").style.maxHeight = "0px";
+         document.getElementById("r2").style.maxHeight = "0px";
+         document.getElementById("olvido").style.maxHeight = "0px";
+         document.getElementById("r3").style.maxHeight = "0px";
+         document.getElementById("login").style.maxHeight = parseInt(document.getElementById("login").scrollHeight)*2.5 + "px";
+      }
+      function olvido()      {
+         document.getElementById("r1").style.maxHeight = "0px";
+         document.getElementById("r2").style.maxHeight = "0px";
+         document.getElementById("login").style.maxHeight = "0px";
+         document.getElementById("r3").style.maxHeight = "0px";
+         document.getElementById("olvido").style.maxHeight = parseInt(document.getElementById("olvido").scrollHeight)*2.5 + "px";
+      }
+      function clearField(input) {
+          input.value = "";
+          if (input.name=="password"){
+            input.type="password";
+          }
+
+      }
+   </script>
+
+{% endif %}
+
+<!--BLOQUE NOTIFICACION DE RESERVA ALCANZADA -->
+<div id ="exito" style="display:none;opacity:0.6;position: absolute;width: 100%;z-index:200;" class="container-fluid modulo-alerta">
+  <a href='#'><div onclick="$('#exito').delay(0).fadeOut();" class='close-btn' style="top:-10px;"></div></a>
+    <div class="col-sm-12"><span id="exitotext" class="detalles-tit"><strong>Daniel Iribarren</strong> ha sido agregado.</span>
+    </div>
+</div>
+
+
+<!--BLOQUE NOTIFICACION DE ELIMINADA RESERVA-->
+<div id="error" style="display:none;opacity:0.6;position: absolute;width: 100%;z-index:200;" class="container-fluid modulo-alerta-error">
+  <a href='#'><div onclick="$('#error').delay(0).fadeOut();" class='close-btn' style="top:-10px;"></div></a>
+    <div class="col-sm-12">
+     <span id="errortext" class="detalles-tit">Error en reserva <strong>Daniel Iribarren.</strong></span>
+    </div>
+</div>
+
+<script type="text/javascript">
+function myFiltro() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    for (i = 1; i <= parseInt('{{marcas_publicas|length}}'); i++) {
+        palabra = document.getElementById('n'+i);
+        console.log(palabra.innerHTML);
+        if (palabra.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            document.getElementById('re'+i).style.display = "";
+        } else {
+            document.getElementById('re'+i).style.display = "none";
+        }
+    }
+}
+</script>
+
+<script>
+  var notificacion = {{notificacion}};
+  if (notificacion == -100){
+    document.getElementById("error").style.display="";    
+    document.getElementById("error").innerHTML="Usuario y/o contraseña errados";
+    $("#error").delay(4000).fadeOut(); 
+    login();
+  }
+
+function lightbox(input){
+    if (input){
+        document.getElementById("lightbox").style.opacity=1;
+        document.getElementById("lightbox").style.zIndex=10;
+    }else{
+        document.getElementById("lightbox").style.opacity=0;
+        document.getElementById("lightbox").style.zIndex=0;
+    }
+}
+  </script>
+  <script type="text/javascript">
+$(document).ready(function(){
+	
+    $(".dropdownClick").click(function() {
+    	
+  	   $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+         $(this).toggleClass('open');    
+         
+     });    
+    
+    $(".dropdownClickClose").click(function(event) {    	   
+    	
+    	 $('.dropdown-menu').stop( true, true ).slideUp("fast");
+    	 $(".dropdownClick").toggleClass('open');  
+    	   event.stopPropagation();
+      });    
+    
+});
+</script>
+  
