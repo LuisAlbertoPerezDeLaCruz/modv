@@ -2,124 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e18b25fd-d337-44f8-8780-aa04a065f920" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/mercadeo/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/mercadeo/templates/centros.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/mercadeo/templates/header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/mercadeo/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/mercadeo/templates/instructores.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vicMod/vicMod/models.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/css/estilos.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/css/panel-tab.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/css/timeline.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/Carousel_Placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/Drop-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/Fotoperfil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/MediaObj_Placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/Thumbnail_Placeholder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/aceptar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/agendada.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/aprobado.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/asistida.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/asistio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/bg-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/big-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/borde-foto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/calendar-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/cancelada-clase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/cancelada.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/clase-eliminar-yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/clase-eliminar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/clase-espera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/clase-libre.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/clase-llena-over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/clase-over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/close-btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/con-book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/con-saldo-azul.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/con-saldo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/dia.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/eliminar-perfil.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/espera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/fondo-atletas.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/fondo-centros.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/fondo-dash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/fondo-instructores.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/fondo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/fondo_ZonaFuncional.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/foto-instructor.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/foto-instructor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/foto-perfil-big.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/grey-arrow-dos.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/grey-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icon001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icon002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icon003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icons/centros.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icons/dash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icons/instructores.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icons/notificaciones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/icons/settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/instructor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/isotipo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/isotipoBig.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/isotipoBig.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/lista-espera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/loader-black.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/logoVictor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/lupa-blanca.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/lupa.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/map-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/moreOps.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/negar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/no-plans.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/perfil_clase-001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/perfil_clase-002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/perfil_clase.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/perfil_clase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/phone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/place.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/prox-disciplina.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/roberto.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/see-more.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/seguidos-espera.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/seguidos-unido.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/select-input-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/semana.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/sin-foto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/sin-saldo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/teacher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/time.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/unido.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/usuario-eliminar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/images/vacio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/js/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/js/panel-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/js/sameHeight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/mercadeo/algo/js/timeline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/vicMod/static/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/vicMod/static/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vicMod/vicMod/static/js/jquery.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vicMod/mercadeo/admin.py" afterPath="$PROJECT_DIR$/vicMod/mercadeo/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vicMod/mercadeo/models.py" afterPath="$PROJECT_DIR$/vicMod/mercadeo/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vicMod/mercadeo/views.py" afterPath="$PROJECT_DIR$/vicMod/mercadeo/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vicMod/vicMod/settings.py" afterPath="$PROJECT_DIR$/vicMod/vicMod/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vicMod/vicMod/urls.py" afterPath="$PROJECT_DIR$/vicMod/vicMod/urls.py" />
     </list>
@@ -133,24 +16,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/views.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vicMod/manejoCalendario/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="700">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
-                <element signature="e#2558#3747#0" expanded="false" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vicMod/vicMod/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vicMod/vicMod/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="369">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vicMod/manejoCalendario/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -181,20 +83,23 @@
         <option value="$PROJECT_DIR$/vicMod/vicMod/templates/centros.html" />
         <option value="$PROJECT_DIR$/vicMod/vicMod/templates/index.html" />
         <option value="$PROJECT_DIR$/vicMod/mercadeo/templates/index.html" />
-        <option value="$PROJECT_DIR$/vicMod/vicMod/settings.py" />
         <option value="$PROJECT_DIR$/vicMod/mercadeo/templates/centros.html" />
         <option value="$PROJECT_DIR$/vicMod/mercadeo/templates/instructores.html" />
         <option value="$PROJECT_DIR$/vicMod/mercadeo/admin.py" />
-        <option value="$PROJECT_DIR$/vicMod/vicMod/urls.py" />
         <option value="$PROJECT_DIR$/vicMod/mercadeo/views.py" />
+        <option value="$PROJECT_DIR$/vicMod/manejoVistas/views.py" />
+        <option value="$PROJECT_DIR$/vicMod/manejoCalendario/models.py" />
+        <option value="$PROJECT_DIR$/vicMod/manejoCalendario/views.py" />
+        <option value="$PROJECT_DIR$/vicMod/vicMod/settings.py" />
+        <option value="$PROJECT_DIR$/vicMod/vicMod/urls.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="189" />
-    <option name="y" value="46" />
-    <option name="width" value="1463" />
-    <option name="height" value="905" />
+    <option name="x" value="140" />
+    <option name="y" value="18" />
+    <option name="width" value="1659" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,7 +120,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,8 +182,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="victorius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="victorius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vicMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mercadeo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="victorius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="victorius" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vicMod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manejoCalendario" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -408,6 +353,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e18b25fd-d337-44f8-8780-aa04a065f920" name="Default" comment="" />
@@ -419,12 +367,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="46" width="1463" height="905" extended-state="0" />
+    <frame x="140" y="18" width="1659" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30209085" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21288693" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -438,7 +387,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -479,14 +427,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/views.py">
+    <entry file="file://$PROJECT_DIR$/vicMod/manejoCalendario/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#2558#3747#0" expanded="false" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/manejoCalendario/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -494,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17250">
           <caret line="690" column="13" lean-forward="false" selection-start-line="690" selection-start-column="13" selection-end-line="690" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3625">
           <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -531,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3650">
           <caret line="148" column="36" lean-forward="true" selection-start-line="148" selection-start-column="36" selection-end-line="148" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,13 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/templates/instructores.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1675">
@@ -604,14 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="147" column="43" lean-forward="false" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -619,64 +580,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17250">
-          <caret line="690" column="13" lean-forward="false" selection-start-line="690" selection-start-column="13" selection-end-line="690" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vicMod/vicMod/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/admin.py" />
     <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17250">
+          <caret line="690" column="13" lean-forward="false" selection-start-line="690" selection-start-column="13" selection-end-line="690" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="879">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/manejoCalendario/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/manejoCalendario/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vicMod/vicMod/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="56" column="30" lean-forward="true" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vicMod/vicMod/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="369">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vicMod/mercadeo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#2558#3747#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
